@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
         repository: Bespertrijun/rclone
-        ref: newrclone
+        ref: multidownload
 
     - name: Set up Go
       uses: actions/setup-go@v3
