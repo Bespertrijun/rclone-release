@@ -10,4 +10,4 @@
 * 2023.12.10  删除timeout参数，固定为5分钟，对失败的网络请求进行retry处理
 * 2023.12.31  修复请求失败导致的panic
 * 2024.09.20  同步官方更新，支持--vfs-read-chunk-streams
-* 2024.11.06  回退版本，--vfs-read-chunk-streams有bug，支持--tpslimit实现流控，现在所有115网盘的http请求（除下载）
+* 2024.11.06  回退版本，--vfs-read-chunk-streams有bug，支持--tpslimit实现流控，限制所有115网盘的http请求（除下载）
