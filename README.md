@@ -11,3 +11,4 @@
 * 2023.12.31  修复请求失败导致的panic
 * 2024.09.20  同步官方更新，支持--vfs-read-chunk-streams
 * 2024.11.06  回退版本，--vfs-read-chunk-streams有bug，支持--tpslimit实现流控，限制所有115网盘的http请求（除下载）
+* 2024.12.05  ck增加kid参数
